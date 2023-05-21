@@ -1,5 +1,7 @@
 # Kubernetes Cluster Setup
-Foobar is a Python library for dealing with word pluralization.
+## VM2 -kubernetes_Master
+## VM3-kubernetes_Client
+## VM1-NFS Server
 ## Below insatllation process both Master and Client NOode
 ### Installation
 Disable SWAP
