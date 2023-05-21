@@ -2,7 +2,7 @@
 ## VM2 -kubernetes_Master
 ## VM3-kubernetes_Client
 ## VM1-NFS Server
-## Below insatllation process both Master and Client NOode
+## Below insatllation process both Master and Client Node
 ### Installation
 Disable SWAP
 ```bash
