@@ -39,7 +39,7 @@ sudo apt-mark hold kubelet kubeadm kubectl
 ### Only in Master Node:
 Api integration and cluster network setup.edit flannel ip according to your pod network
 ```bash
-sudo kubeadm init --apiserver-advertise-address=10.128.0.2 --pod-network-cidr=10.0.0.0/16 
+sudo kubeadm init --apiserver-advertise-address=10.128.0.3 --pod-network-cidr=10.0.0.0/16 
 
  mkdir -p $HOME/.kube
  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
