@@ -71,4 +71,10 @@ sudo exportfs -a
 sudo systemctl restart nfs-kernel-server
 sudo systemctl status nfs-server
 ```
+
+Now log in to the client system and update the package index as shown.
+```bash
+sudo apt update
+sudo apt install nfs-common
+```
 Application Deploymenet using kubectl and Helm.both folder are available in Git repo.
